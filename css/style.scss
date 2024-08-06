@@ -1,6 +1,6 @@
 // @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
-// Variables
+
 $primary-color: #092353;
 $secondary-color: #5972A3;
 $background-color: #F5F7FB;
@@ -14,7 +14,6 @@ $active-btn-text-color: #114F14;
 $text-color: #444;
 $font-family: 'Roboto';
 
-// Mixins
 @mixin transition($property, $duration) {
   transition: $property $duration ease-in-out;
 }
@@ -27,7 +26,7 @@ $font-family: 'Roboto';
   line-height: normal;
 }
 
-// Global Styles
+
 *,
 *::before,
 *::after {
@@ -49,7 +48,7 @@ li {
   list-style: none;
 }
 
-// Layout Styles
+
 .wrapper {
   display: flex;
 }
@@ -127,13 +126,13 @@ li {
   }
 }
 
-// Avatar Styles
+
 .avatar {
   width: 40px;
   height: 40px;
 }
 
-// Image Styles
+
 .imgkalyanlogo {
   width: 19.654px;
   height: 29.197px;
@@ -150,7 +149,7 @@ margin-left: -10px;
     }
 
 
-// Card and Box Styles
+
 .card {
   width: 288px;
   height: 80px;
@@ -205,7 +204,7 @@ margin-left: -10px;
 }
 
 
-// Button Styles
+
 .custom-button,
 .custom-button1 {
   display: inline-flex;
@@ -249,7 +248,7 @@ margin-left: -10px;
   margin-left: 60px
 }
 
-// Typography Styles
+
 .tcr,
 .tcr1 {
   @include font(12px, 500);
@@ -436,7 +435,7 @@ margin-top: -0.80rem;
 .tranfer { color: $secondary-color; }
 .salesorderadvance { color: $primary-color; font-size: 13px; }
 
-// Table Styles
+
 .table {
   width: 1354px;
   height: 157.068px;
@@ -458,7 +457,7 @@ thead,
   @include font(12px, 500);
 }
 
-// Other Styles
+
 .ekm {
   @include font(17px, 500);
   color: $primary-color;
